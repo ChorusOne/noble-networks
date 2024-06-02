@@ -27,7 +27,7 @@ Request for gentx files will be sent to the Noble Validators Telegram group.
 at `2023-03-24T23:59:00.000000000Z` the `strangelove` team will create the official [genesis file](https://raw.githubusercontent.com/strangelove-ventures/noble-networks/main/mainnet/noble-1/genesis.json). 
 
 **2023-03-27** 
-Genesis is scheduled for `2023-03-28T16:00:00.000000000Z`.  Please have your nodes started by this time.
+Genesis is scheduled for `2023-03-27T16:00:00.000000000Z`.  Please have your nodes started by this time.
 
 ## Chain Details
 ```
@@ -36,9 +36,31 @@ minimum-gas-prices = "0.0uusdc"
 ```
 ## Persistent Peers
 ```
-#Strangelove
-TBD
+#Keplr
+08d9b0fd3d4407a5f141f383fde6f32c06f95134@159.89.21.233:30192, 
+afb6bc227f15553a0e8fed6adced7cac259cd378@146.190.222.171:26656
+
+#Notional
+c23fe2dfd8b48bcb3a4c83e0cf5fe52c8c612aab@65.109.31.114:2590
+
+# B-Harvest
+a59f269303aea7d535c2cf59781f06119b26715c@18.141.244.198:26656
+
+# Cosmostation
+90be586a27416b76701c7fe655a4dfbeb654211c@54.193.105.44:26656
 ```
+## Endpoints
+RPC: 
+* https://rpc.mainnet.noble.strange.love:443  
+* https://rpc-noble-ia.cosmosia.notional.ventures:443
+
+API:
+* https://api.mainnet.noble.strange.love:443  
+* https://api-noble-ia.cosmosia.notional.ventures:443
+
+## Block Explorer  
+https://explore.strange.love  
+https://www.mintscan.io/noble  
 
 ## Binary
 

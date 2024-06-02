@@ -49,17 +49,24 @@ minimum-gas-prices = "0.0uusdc"
 ```
 ## Persistent Peers
 ```
-#Strangelove
-38179b18853d6a8cb86b99881e02cf72f18b9d0f@34.127.46.223:26656
-57546d799a1cdef74b9a174052821a6e93636dfc@34.145.87.4:26656
-6b76ad22a73897e3c39c7d87b7d12a3b7d690bff@34.168.48.128:26656
-
 #B-Harvest
 f8a0d8942bcf02b94ed875ded9cb23944a53e48a@141.95.97.28:15656
 
 #Everstake
 d82829d886635ffcfcef66adfaa725acb522e1c6@83.136.255.243:26656
 ```
+
+## Endpoints
+RPC: 
+* https://rpc.testnet.noble.strange.love:443  
+
+API:
+* https://api.testnet.noble.strange.love:443  
+
+## Block Explorer  
+https://explore.strange.love  
+https://www.mintscan.io/noble  
+
 
 ## Binary
 

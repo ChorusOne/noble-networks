@@ -7,7 +7,7 @@ amount='1000000ustake'
 
 # This is the epoch time when it will unlock
 unlock='531800807734'
-noble_template_path="$(pwd)/genesis_template.json"
+noble_template_path="$(pwd)/genesis_template.txt"
 
 # custom noble template
 cp $noble_template_path ~/.noble/config/genesis.json
@@ -16,7 +16,7 @@ cp $noble_template_path ~/.noble/config/genesis.json
 vals=()
 while IFS='' read -r val; do
     vals+=("$val")
-done <<<"$(find . -name "*.json" ! -name "genesis*.json -exec jq -r '.body.messages[].delegator_address' {} \;)"
+done <<<"$(find . -name "*.json" ! -name "genesis*.json" -exec jq -r '.body.messages[].delegator_address' {} \;)"
 
 for val in "${vals[@]}"
 do
